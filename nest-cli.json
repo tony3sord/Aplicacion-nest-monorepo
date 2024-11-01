@@ -2,13 +2,31 @@
   "collection": "@nestjs/schematics",
   "sourceRoot": "apps",
   "projects": {
-    "main": {
+    "gateway": {
       "type": "application",
-      "root": "apps/main",
+      "root": "apps/gateway",
       "entryFile": "main",
-      "sourceRoot": "apps/main/src",
+      "sourceRoot": "apps/gateway/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/main/tsconfig.app.json"
+        "tsConfigPath": "apps/gateway/tsconfig.app.json"
+      }
+    },
+    "service1": {
+      "type": "application",
+      "root": "apps/service1",
+      "entryFile": "main",
+      "sourceRoot": "apps/service1/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/service1/tsconfig.app.json"
+      }
+    },
+    "service2": {
+      "type": "application",
+      "root": "apps/service2",
+      "entryFile": "main",
+      "sourceRoot": "apps/service2/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/service2/tsconfig.app.json"
       }
     }
   }
