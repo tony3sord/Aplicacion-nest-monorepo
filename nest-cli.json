@@ -8,25 +8,25 @@
       "entryFile": "main",
       "sourceRoot": "apps/gateway/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/gateway/tsconfig.app.json"
+        "tsConfigPath": "apps/gateway/tsconfig.json"
       }
     },
-    "service1": {
+    "product": {
       "type": "application",
-      "root": "apps/service1",
+      "root": "apps/product",
       "entryFile": "main",
-      "sourceRoot": "apps/service1/src",
+      "sourceRoot": "apps/product/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/service1/tsconfig.app.json"
+        "tsConfigPath": "apps/product/tsconfig.json"
       }
     },
-    "service2": {
+    "user": {
       "type": "application",
-      "root": "apps/service2",
+      "root": "apps/user",
       "entryFile": "main",
-      "sourceRoot": "apps/service2/src",
+      "sourceRoot": "apps/user/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/service2/tsconfig.app.json"
+        "tsConfigPath": "apps/user/tsconfig.json"
       }
     }
   }
